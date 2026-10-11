@@ -1,0 +1,36 @@
+{
+    "language": "khmer",
+    "version": "0.1",
+    "maintainer": "Srey Leak (sreyleak-security)",
+    "patterns": [
+          {
+                  "id": "kh-seed-recovery",
+                  "text": "បញ្ចូល seed phrase ដើម្បីទាញយកប្រាក់វិញ",
+                  "translit": "enter seed phrase to recover funds",
+                  "verdict": "scam",
+                  "note": "Recovery scam opener, seen in workshop reports 2026-10"
+          },
+          {
+                  "id": "kh-support-credentials",
+                  "text": "គ្រូសារ Polymarket ត្រូវការព័ត៌មានកន្ត្រងរបស់អ្នក",
+                  "translit": "Polymarket support needs your credentials",
+                  "verdict": "scam",
+                  "note": "Fake support, credential harvesting"
+          },
+          {
+                  "id": "kh-guaranteed-profit",
+                  "text": "ចំណេញ 100%",
+                  "translit": "100 percent profit",
+                  "verdict": "scam",
+                  "note": "Guaranteed profit promise"
+          },
+          {
+                  "id": "kh-urgent-window",
+                  "text": "អ្នកមានពេល 24 ម៉ោង",
+                  "translit": "you have 24 hours",
+                  "verdict": "suspect",
+                  "note": "Artificial urgency"
+          }
+    ],
+    "advice": "Close the chat. Do not reply. Verify offline. Bring messages to a free workshop in Long Beach."
+}
